@@ -11,6 +11,9 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    @IBOutlet weak var onOffToggle: NSButton!
+    @IBAction func onOffToggleClicked(sender: AnyObject) {
+    }
     @IBOutlet weak var window: NSWindow!
 
 
